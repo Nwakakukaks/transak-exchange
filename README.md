@@ -19,4 +19,4 @@ Run npm install to install project dependencies
 Run npm start to spin up local server
 
 ### DEMO LINK
-transak-exchange.netlify.app
+https://transak-exchange.netlify.app
