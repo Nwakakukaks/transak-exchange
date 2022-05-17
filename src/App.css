@@ -1,0 +1,19 @@
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;  
+}
+body {
+      background-image: url('../public/images/body_bg.jpg');
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,102 @@
+.footer {
+    background-color: rgb(8, 8, 8);
+    position: relative;
+    margin-top: 10px;
+}
+.footer_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    color: white;
+    margin: 10px 20px;
+}
+
+.contact form {
+    color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    flex: 1;
+   
+}
+
+input[type=text], select,textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+
+
+.footer .links {
+        padding: 10px;
+        border-radius: 5px;
+        min-height: 300px;
+        flex: 1;
+        margin-left: 15px;
+        font-size: 16px;
+    
+}
+
+
+.links ul li {
+    list-style-type: disc;
+}
+
+.links ul li:hover {
+    cursor: pointer;
+    color: #ccc;
+
+}
+
+.address ul {
+        padding: 20px;
+        border-radius: 5px;
+        flex: 1;
+        min-height: 350px;
+}
+
+.address ul li{
+    list-style-type: disc;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.address ul li:hover {
+    color: #ccc;
+}
+
+.year p {
+    display: flex;
+    justify-content: center;  
+}
+
+@media (max-width: 768px) {
+    .footer_items {
+        display: block;
+    }
+        .footer_items {
+            color: white;
+            margin: 20px 20px;
+        }
+
+    .contact form {
+            margin-top: 50px;
+            color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+    }
+    .footer .links {
+        min-height: auto;
+    }
+    .address ul {
+        min-height: auto;
+    }
+}
